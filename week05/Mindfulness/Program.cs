@@ -1,6 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
+//**** In ReflectingActivity.cs, I can get noduplicated questions in GetRandomQuestion() by removing the used question from the List<string> _question ****
 class Program
 {
     static void Main(string[] args)
